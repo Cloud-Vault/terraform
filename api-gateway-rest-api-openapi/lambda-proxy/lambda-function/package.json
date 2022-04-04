@@ -1,0 +1,14 @@
+{
+    "name": "lambda-function",
+    "version": "0.0.0",
+    "main": "./src/index.js",
+    "scripts": {
+        "plan": "cd terraform && terraform plan --out state",
+        "apply": "npm run plan && terraform apply state",
+        "destroy": "cd terraform && terraform destroy"
+    },
+    "dependencies": {
+        "aws-xray-sdk": "^3.3.4",
+        "uuid": "^8.3.2"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "account": null,
+  "artifacts-bucket": null,
+  "description": null,
+  "environment-variables": {
+    "NODE_ENV": "production"
+  },
+  "execution-source": null,
+  "iam-role": null,
+  "memory-size": null,
+  "name": null,
+  "publish": null,
+  "runtime": null,
+  "timeout": null,
+  "vpc-configuration": null
+}

@@ -1,0 +1,11 @@
+#!/bin/bash --norc
+
+# -*-  Coding: UTF-8  -*- #
+# -*-  System: Linux  -*- #
+# -*-  Usage:   *.*   -*- #
+
+set -eo pipefail
+
+[[ ${@} =~ "--debug" || ${@} =~ "--Debug" ]] && set -x
+
+npx tf-http-configuration@latest
